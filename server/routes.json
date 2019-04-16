@@ -1,0 +1,4 @@
+{
+  "/pages/*": "/pages?path=$1",
+  "/main/*": "/main?name=$1"
+}

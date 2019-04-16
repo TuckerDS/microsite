@@ -1,0 +1,25 @@
+{
+  "main": [
+    {
+      "name": "header",
+      "content": [
+
+      ]
+    },
+    {
+      "name": "footer",
+      "content": [
+
+      ]
+    }
+  ],
+
+  "pages": [
+    {
+      "path": "home",
+      "content": [
+
+      ]
+    }
+  ]
+}

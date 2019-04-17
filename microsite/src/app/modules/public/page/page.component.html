@@ -1,0 +1,11 @@
+
+
+<div *ngIf='content'>
+  <p>
+    page works!
+  </p>
+  <div *ngFor='let c of components'>
+    {{c.name}}
+    <app-banner [data]=c></app-banner>
+  </div>
+</div>

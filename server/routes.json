@@ -1,4 +1,4 @@
 {
-  "/pages/*": "/pages?path=$1",
-  "/main/*": "/main?name=$1"
+  "/api/pages/*": "/pages?path=$1",
+  "/api/main/*": "/main?name=$1"
 }

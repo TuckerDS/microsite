@@ -1,14 +1,11 @@
 {
   "main": [
     {
-      "name": "header",
-      "content": [
-
-      ]
+      "name": "header"
     },
     {
       "name": "footer",
-      "content": [
+      "components": [
 
       ]
     }
@@ -17,8 +14,12 @@
   "pages": [
     {
       "path": "home",
-      "content": [
-
+      "components": [
+        {
+          "name": "banner",
+          "title": "My title",
+          "body": "My body"
+        }
       ]
     }
   ]

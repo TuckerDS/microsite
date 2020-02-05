@@ -9,7 +9,7 @@ const ROUTES: Routes = [
     children: [
       {
         path: '',
-        loadChildren: 'app/modules/public/public.module#PublicModule'
+        loadChildren: () => import('app/modules/public/public.module').then(m => m.PublicModule)
       },
       { path: '**', redirectTo: '/home' }
     ]
